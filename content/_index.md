@@ -6,7 +6,7 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: "6rem"
+  spacing: "3rem"
 
 sections:
   - block: resume-biography-3
@@ -24,7 +24,7 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
+          filename: stacked-peaks.png
           filters:
             brightness: 1.0
           size: cover
@@ -79,12 +79,12 @@ sections:
               (but you can already start by asking them there :point_right:
               {{< obfuscated_email "✉" >}}).
             </td>
-            <td style="vertical-align:top"><img src="/media/science_mini.png"></td>
+            <td style="vertical-align:top"><img src="/images/science_mini.png"></td>
           </tr>
         </table>
         <table style="width:100%">        
           <tr>
-            <td style="width:20%;vertical-align:top"><img src="/media/drawing_mini.png"></td>
+            <td style="width:20%;vertical-align:top"><img src="/images/drawing_mini.png"></td>
             <td style="vertical-align:top">
               In my spare time, I love <strong>drawing</strong> on my pen tablet:
               you can have a look on my creations on Instagram :point_right:
@@ -99,7 +99,7 @@ sections:
               I used to do <strong>fencing</strong> at a competitive level. 
               I also enjoy running from time to time!
             </td>
-            <td style="vertical-align:top"><img src="/media/fencing_mini.png"></td>
+            <td style="vertical-align:top"><img src="/images/fencing_mini.png"></td>
           </tr>
         </table>
 
